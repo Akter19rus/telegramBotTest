@@ -8,10 +8,10 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
-public class NotificationService {
+public class NotificationTaskService {
     private final NotificationTaskRepository repository;
 
-    public NotificationService(NotificationTaskRepository repository) {
+    public NotificationTaskService(NotificationTaskRepository repository) {
         this.repository = repository;
     }
 
